@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<script src="//code.jquery.com/jquery.min.js"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, height=device-height">
+		<title>La multi ani, Roxana! <3</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Rusu Traian Cristian" />
+		<link rel="shortcut icon" href="">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/png" href="" />
+        <link rel="apple-touch-icon" href="">
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	</head>
+	<body>
+
+		<p id="incentive">Salut. Vreau sa ma asigur ca doar baby<i class="fa fa-heart" style="color: #d5093c"></i> poate citi mesajul ascuns din aceasta pagina. Daca citesti acest mesaj si esti baby<i class="fa fa-heart" style="color: #d5093c"></i>, introdu mai jos parola pt. a continua.<br /><br /><span style="color: #d5093c">Indiciu:</span> parola este una din cele 2 porecle ale noastre!</p>
+
+		<input id="insertdata" type="text" required pattern="RURY|Rury|rury|POCINDO|Pocindo|pocindo" required>
+		<button id="buton" onclick="myFunction()">validează</button>
+
+		<p id="demo"></p>
+
+		<script>
+		function myFunction() {
+		    var inpObj = document.getElementById("insertdata");
+		    if (inpObj.checkValidity() == false) {
+		        document.getElementById("demo").innerHTML = "Maaaaaaaaaaiii, parola introdusa nu este corecta. Tu NU esti baby! Nu poti accesa mesajul, pa!";
+				document.getElementById("demo").style.color = "#d5093c";
+		    } else {
+		        document.getElementById("demo").style.display = "none";
+				document.getElementById("chest").style.display = "block";
+				document.getElementById("lma").style.display = "block";
+				document.getElementById("ziua").style.display = "block";
+				document.getElementById("overlay").style.display = "block";
+				document.getElementById("roman").style.display = "block";
+				document.getElementById("incentive").style.display = "none";
+				document.getElementById("insertdata").style.display = "none";
+				document.getElementById("buton").style.display = "none";
+		    }
+		}
+		</script>
+		<audio id="sound" src="lightsoff.mp3" preload="auto"></audio>
+		<div id="overlay">
+			<span id="welcome">Buna baby! Continuam cu jocul?</span>
+			<span id="bothbuttons">
+				<span id="leftbutton" onclick='window.location.href="http://rusutraiancristian.com/roxana/"'>nu</span>
+				<span id="rightbutton" onclick="play()">da<span style="color: #d5093c;">( <- apasa!)</span></span>
+			</span>
+		</div>
+		<div id="roman">
+			<p><span style="color: #d5093c">''</span>
+				Ce faci baby?<i class="fa fa-heart" style="color: #d5093c;"></i> Iarta-ma ca nu am stat sa vorbim pe wapp prin mesaje.
+				Stii cand eram afara si iti ziceam ca inca am de lucrat si de aia vreau sa merg acasa?
+				De fapt..toata ziua azi nu am lucrat la nimic decat la mini jocul asta..special pentru ziua ta.<i class="fa fa-heart" style="color: #d5093c;"></i>
+				Am vrut sa iti fac o mica surpriza..care in opinia mea e draguta.<i class="fa fa-heart" style="color: #d5093c;"></i> Sper sa iti placa si tie.
+				Iarta-ma..de aia cand eram afara am vrut sa vin acasa si te-am "mintit" ca trebuie sa lucrez.
+				Si tot de aia nu am putut sa stau pe wapp sa vb prin mesaje...pentru ca am lucrat azi la chestia aceasta
+				si trebuia sa o termin si numai aveam timp. M-am apucat de ea de dimineata si am incercat sa o perfectionez!
+				Sper din suflet sa iti placa.<i class="fa fa-heart" style="color: #d5093c;"></i> Esti o vaca ca m-ai facut nesimtit degeaba..eu lucram la chestia aceasta
+				si de aia nu puteam sta de vorba la telefon..si de aia te-am pus sa pornesti laptopul...
+				nu am vrut sa fac o gluma proasta sa te pun sa il pornesti degeaba doar ca sa il inchizi..
+				ci te-am pus sa il pornesti ca sa iti zic sa deschizi pagina asta la ora 00:00 de ziua ta...dar nu ti-ai dat seama
+				si ai crezut ca am facut o gluma proasta. Iarta-ma pui mic! <i class="fa fa-heart" style="color: #d5093c;"></i> Iti doresc La multi ani! cu multe bucurii si impliniri..si multa multa sanatate
+				si MUUUUUUUUULTA dragoste din partea mea<i class="fa fa-heart" style="color: #d5093c;"></i>...de asta nu vei duce lipsa...ca te voi sufoca cu dragostea..muhahaha!
+				Vreau sa fii sotia mea candva si sa facem copii impreuna!<i class="fa fa-heart" style="color: #d5093c;"></i> Te iubesc ENORM de mult si vreau sa imi petrec
+				tot restul zilelor cu tine baby.<i class="fa fa-heart" style="color: #d5093c;"></i> Abia astept maine sa iesim in oras impreuna si sa ne simtim bine. Scuze inca o data ca
+				ma tot grabeam sa ajung acasa "sa lucrez"..a trebuit sa termin pagina asta pentru tine! TE ADOR!<i class="fa fa-heart" style="color: #d5093c;"></i>
+				<span style="color: #d5093c">''</span></p>
+		</div>
+		<div id="chest">
+  			<div class="heart left side top"></div>
+  			<div class="heart center">&hearts;</div>
+  			<div class="heart right side"></div>
+		</div>
+		<span id="lma">La multi ani, baby<i class="fa fa-heart" style="color: #d5093c"></i>!</span>
+		<div id="ziua">24<i class="fa fa-heart" style="color: #d5093c; font-size: 1.2vw;"></i>09<i class="fa fa-heart" style="color: #d5093c; font-size: 1.2vw;"></i>2016</div>
+
+		<script>
+  function play(){
+       var sound = document.getElementById("sound");
+       sound.play();
+                 }
+   </script>
+
+
+		<script type="text/javascript">
+		$("#rightbutton").click(function() {
+			$('html,body').animate({
+				scrollTop: $("#roman").offset().top},
+				'slow');
+			});
+		</script>
+
+	</body>
+</html>

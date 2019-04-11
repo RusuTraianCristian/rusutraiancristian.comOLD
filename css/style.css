@@ -1,0 +1,158 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+#body {
+  	font-size: 16px;
+  	line-height: 22px;
+  	font-weight: 100;
+	background: #141217;
+	font-family: 'brandon_grotesqueregular';
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	position:relative;
+	z-index:0;
+}
+
+#container {
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+  	height: 100vh;
+}
+
+header {
+	background: transparent;
+	color: #ffffff;
+	width: 100%;
+	height: 90px;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+	z-index: 1;
+}
+
+.mainlogo {
+	background-image: url("https://rusutraiancristian.com/logo.png");
+	background-repeat: no-repeat;
+	background-size: 80px auto;
+	background-position: 50% 50%;
+	width: 95px;
+	height: 90px;
+	float: left;
+	cursor: pointer;
+}
+
+.links {
+	margin: 22px 22px 0 0;
+	float: right;
+	user-select: none;
+}
+
+.links span {
+  	font-size: 16px;
+	line-height: 16px;
+	color: #ffffff;
+	font-family: 'brandon_grotesqueregular';
+	text-align: center;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 2px;
+	float: right;
+	margin: 0 10px 0 10px;
+}
+
+.links a {
+  	font-size: 16px;
+	line-height: 16px;
+	color: #ffffff;
+	font-family: 'brandon_grotesqueregular';
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 2px;
+	float: right;
+	margin: 0 10px 0 10px;
+	cursor: pointer;
+}
+
+.links a:hover {
+    text-decoration: line-through;
+  	-webkit-transition: all 200ms ease-in 0.3s;
+    -moz-transition: all 200ms ease-in 0.3s;
+    -o-transition: all 200ms ease-in 0.3s;
+    transition: all 200ms ease-in 0.3s;
+	color: #b9a3e3;
+}
+
+.favoritequote {
+	width: 97%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	font-style: italic;
+	margin-top: -44px;
+	font-size: 18px;
+	color: #b8b8b8;
+	line-height: 24px;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.objblink {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: blink;
+    -webkit-animation-timing-function: ease-in-out;
+
+    -moz-animation-direction: normal;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: blink;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+::-webkit-scrollbar {
+      height: 10px;
+	  width: 10px;
+	  background: #000000;
+    }
+::-webkit-scrollbar-thumb {
+    background: #0d0d11;
+    border: 2px solid #000000;
+    -webkit-border-radius: 1ex;
+}
+::-webkit-scrollbar-corner {
+}
