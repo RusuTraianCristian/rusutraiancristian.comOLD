@@ -1,14 +1,19 @@
+@font-face {
+	font-family: Serverless;
+	src: url("/fonts/serverless/serverless.otf") format("opentype");
+}
+
 html {
 	margin: 0;
 	padding: 0;
 }
 
 #body {
-  	font-size: 16px;
+  	font-size: 14px;
   	line-height: 22px;
   	font-weight: 100;
 	background: #141217;
-	font-family: 'brandon_grotesqueregular';
+	font-family: 'Serverless';
 	color: #ffffff;
 	margin: 0;
 	padding: 0;
@@ -53,30 +58,30 @@ header {
 }
 
 .links span {
-  	font-size: 16px;
+  	font-size: 14px;
 	line-height: 16px;
 	color: #ffffff;
-	font-family: 'brandon_grotesqueregular';
+	font-family: 'Serverless';
 	text-align: center;
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
 	padding-bottom: 2px;
 	float: right;
-	margin: 0 10px 0 10px;
+	margin: 0 10px;
 }
 
 .links a {
-  	font-size: 16px;
+  	font-size: 14px;
 	line-height: 16px;
 	color: #ffffff;
-	font-family: 'brandon_grotesqueregular';
+	font-family: 'Serverless';
 	text-align: center;
 	text-transform: capitalize;
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
 	padding-bottom: 2px;
 	float: right;
-	margin: 0 10px 0 10px;
+	margin: 0 10px;
 	cursor: pointer;
 }
 
@@ -95,7 +100,7 @@ header {
 	padding-bottom: 20px;
 	font-style: italic;
 	margin-top: -44px;
-	font-size: 18px;
+	font-size: 14px;
 	color: #b8b8b8;
 	line-height: 24px;
 }
